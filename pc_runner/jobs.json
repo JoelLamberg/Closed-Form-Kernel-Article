@@ -1,0 +1,14 @@
+{
+  "name": "2026-11-02_CBIM_vs_SC_heatmap",
+  "workdir": "C:\\Temp\\cbim_sc_heatmap",
+  "live_sync": false,
+  "jobs": [
+    {"label": "part0",
+     "argv": ["run_part.py", "--part", "0", "--nparts", "2", "--workers", "46"],
+     "resume": ["run_part.py", "--part", "0", "--nparts", "2", "--workers", "46"]},
+    {"label": "part1",
+     "argv": ["run_part.py", "--part", "1", "--nparts", "2", "--workers", "46"],
+     "resume": ["run_part.py", "--part", "1", "--nparts", "2", "--workers", "46"]}
+  ],
+  "post": [["post_zip.py"]]
+}
