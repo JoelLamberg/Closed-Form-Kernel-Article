@@ -1,0 +1,9 @@
+{
+ "pairs_full": 47308032,
+ "cbim_closed_ns": 41.92172553278056,
+ "stratton_chu_ns": 71.13652850746358,
+ "cbim_quadrature_ns": 1525.4662041321017,
+ "quadrature_vs_closed_relerr": 6.678899267539585e-12,
+ "cbim_vs_sc_relerr_at_probe": 4.105788804217346e-05,
+ "machine": "arm64"
+}

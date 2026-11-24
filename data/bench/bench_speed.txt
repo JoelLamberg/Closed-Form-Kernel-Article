@@ -1,0 +1,21 @@
+accuracy of the radial integral vs a converged reference:
+   branch-split,  150 nodes : 2.11e-14   <- baseline used
+   naive GL,      200 nodes : 8.57e-01   (negative control)
+
+Ns=  400 Np=   400: closed   0.021 s   quad    2.022 s
+Ns=  800 Np=   800: closed   0.088 s   quad    7.981 s
+Ns= 1200 Np=  1500: closed   0.248 s   quad   22.348 s
+Ns= 1800 Np=  3000: closed   0.719 s   quad   67.437 s
+Ns= 1800 Np=  8000: closed   1.895 s   quad  180.094 s
+{
+  "ns_per_pair_closed": 131.61044443323692,
+  "ns_per_pair_quad": 12506.54802777313,
+  "speedup_same_implementation": 95.02701766285293,
+  "t_closed_OE_case_s": 59.22469999495662,
+  "OE_reported_hours": 4.0,
+  "speedup_vs_published": 243.1417972775929,
+  "quad_nodes": 150,
+  "split_nodes": 150,
+  "err_split": 2.110936314939457e-14,
+  "err_naive_200": 0.8574481655913447
+}

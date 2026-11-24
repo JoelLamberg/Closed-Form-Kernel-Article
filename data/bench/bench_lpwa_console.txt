@@ -1,0 +1,39 @@
+probe a=14.0 s=0.5 ppw=5 nobs=48: Nsrc=20533, Nobs=2304, pairs=4.731e+07
+C:\Users\<user>\AppData\Roaming\Python\Python312\site-packages\cupy\_environment.py:284: UserWarning: CUDA path could not be detected. Set CUDA_PATH environment variable if CuPy fails to load.
+  warnings.warn(
+{
+ "probe": {
+  "a": 14.0,
+  "s": 0.5,
+  "ppw": 5,
+  "nobs": 48,
+  "Nsrc": 20533,
+  "pairs": 47308032
+ },
+ "cpu_1core_ns_per_pair": {
+  "cbim_sign": 99.8646720301747,
+  "cbim_subcell": 163.6937782537824,
+  "sc_exactH": 173.69070859150736,
+  "sc_lpwaH": 165.280204423238,
+  "lpwa_setup_s": 0.024779999861493707
+ },
+ "error_vs_SC_exactH": {
+  "cbim_sign": 4.105679341592013e-05,
+  "cbim_subcell": 4.105679341592013e-05,
+  "sc_lpwaH": 0.003417929296664305
+ },
+ "SC_exactH_vs_exact_field": 1.3893104093337219e-14,
+ "gpu_ns_per_pair": {
+  "cbim_sign": 2.873383107982104,
+  "cbim_subcell": 4.090102503697735,
+  "sc_exactH": 4.180006894344826,
+  "sc_lpwaH": 4.174394743542255,
+  "lpwa_setup_s": 0.0232935999520123
+ },
+ "gpu_vs_cpu_maxrel": {
+  "cbim_sign": 1.5476326277240794e-14,
+  "cbim_subcell": 1.5476326277240794e-14,
+  "sc_exactH": 9.960785305249648e-15,
+  "sc_lpwaH": 1.1711305459644757e-14
+ }
+}
