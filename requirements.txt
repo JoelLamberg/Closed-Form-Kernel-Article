@@ -1,0 +1,6 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+# optional
+# cupy-cuda12x   # GPU runners only
+# pyvista, Pillow  # Fig. 1 render only
